@@ -1,0 +1,43 @@
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f4f8;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .card {
+      width: 360px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .header {
+      background: #6a82e8;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+      font-weight: bold;
+    }
+
+    .tabs {
+      display: flex;
+      border-top: 1px solid #ddd;
+    }
+    .tab {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      background: #f7f7f7;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .content {
+      padding: 15px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .tab:hover {
+      background: #0c47db;
+    }

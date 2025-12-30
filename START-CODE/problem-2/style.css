@@ -1,0 +1,111 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: #f2f2f2;
+    }
+
+    header {
+        background: #d1d5db;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        background: #9ca3af;
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+
+    nav {
+        display: flex;
+        gap: 10px;
+    }
+
+    nav div {
+        background: #9ca3af;
+        padding: 6px 10px;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+
+    main {
+        padding: 30px 20px;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .hero {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .heading {
+        background: #9ca3af;
+        height: 40px;
+        max-width: 500px;
+        margin: 0 auto 12px;
+        border-radius: 4px;
+    }
+
+    .subtitle {
+        background: #cbd5e1;
+        height: 20px;
+        max-width: 350px;
+        margin: 0 auto 12px;
+        border-radius: 4px;
+    }
+
+    .button {
+        background: #9ca3af;
+        height: 28px;
+        width: 120px;
+        margin: auto;
+        border-radius: 4px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .card {
+        background: #e5e7eb;
+        height: 160px;
+        border-radius: 6px;
+    }
+    footer {
+        background: #d1d5db;
+        padding: 12px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .footer-box {
+        background: #9ca3af;
+        height: 24px;
+        width: 160px;
+        margin: auto;
+        border-radius: 4px;
+    }
+    @media (max-width: 768px) {
+        .cards {
+            grid-template-columns: 1fr;
+        }
+
+        .heading {
+            max-width: 90%;
+        }
+
+        .subtitle {
+            max-width: 80%;
+        }
+    }
